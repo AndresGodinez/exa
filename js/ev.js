@@ -1,44 +1,11 @@
-//declaración de variables
-var title = "Gastos de casa";
-var renta = 3000;
-var agua = 200;
-var luz = 500;
-var colegiatura = 2000;
-var inscripcion = 1500; 
-var comida = 2000;
-var transporte = 400;
+var gastos = [];
+var concept =  prompt("Ingresa un concepto");
+var amount =  prompt("cuanto gastas en " + concept);
+var famount = parseFloat(amount);
 
-// console.log(gastos[position]);
+//50%
+//crear un arreglo vacio que se llame gastos, agregar elementos a ese arreglo utilizando la propiedad pop de arreglos y obteniendo los datos del prompt el usuairio podrá ingresar los gastos que quiera hasta que ingrese un 0 pueden usar un while para hacerlo
 
-var gastos = [renta, agua, luz, colegiatura, inscripcion, comida, transporte];
-
-var suma = 0;
-for(var i = 0; i<6; i++){
-	console.log(gastos[i]);
-	suma = suma + gastos[i];
-
-}
-console.log(suma);
+//Nota: los datos vienen en cadena para poder sumarlos deberan convertirlos a flotantes con la fucnion parseFloat de javaScript, al final hacer la suma de los N elementos ingresados por el usuario, utilizando un ciclo for. Adicional, para saber el tamaño de un arreglo pueden usar la propiedad length de los arreglos.
 
 
-
-
-
-//propiedades de arrays
-
-
-//incremetar elementos
-
-
-//ordenamiento
-
-
-
-
-
-
-
-
-
-
-//eliminación
