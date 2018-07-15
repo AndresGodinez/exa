@@ -10,12 +10,18 @@
 //imprimir el arreglo y imprimir el tamaño del arreglo
 
 var calificaciones = [8, 9, 10];
+// console.log(calificaciones);
+// console.log(calificaciones.length);
+var suma = 0;
+for(var i = 0; i < calificaciones.length; i++){
+	console.log("valor de calificaciones" +calificaciones[i]);
+	console.log("valor de suma " + suma);
+	suma = suma + calificaciones[i];
+}
+console.log(suma);
 
-console.log(calificaciones);
-console.log(calificaciones.length);
-
-calificaciones.push(10);
-calificaciones.push(5);
-calificaciones.push(2);
-console.log(calificaciones);
-console.log(calificaciones.length);
+// // calificaciones.push(10);
+// calificaciones.push(5);
+// calificaciones.push(2);
+// console.log(calificaciones);
+// console.log(calificaciones.length);
